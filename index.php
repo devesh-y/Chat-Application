@@ -33,7 +33,7 @@ if (isset($_SESSION['unique_id'])) {
         </div>
         <div class="field image">
           <label>Select Image</label>
-          <input type="file" name="image" accept="image/x-png,image/gif,image/jpeg,image/jpg" required>
+          <input type="file" name="image" accept="image/png,image/jpeg,image/jpg" required>
         </div>
         <div class="field button">
           <input type="submit" name="submit" value="Continue to Chat">
@@ -43,7 +43,7 @@ if (isset($_SESSION['unique_id'])) {
     </section>
   </div>
 
-  <script src="javascript/pass-show-hide.js"></script>
+  <script src="javascript/pass-toggle.js"></script>
   <script src="javascript/signup.js"></script>
 
 </body>
