@@ -36,10 +36,10 @@ if (isset($_SESSION['unique_id'])) {
           <input type="file" name="image" accept="image/png,image/jpeg,image/jpg" required>
         </div>
         <div class="field button">
-          <input type="submit" name="submit" value="Continue to Chat">
+          <input type="submit" name="submit" value="Continue">
         </div>
       </form>
-      <div class="link">Already signed up? <a href="login.php">Login now</a></div>
+      <div class="link">Already have an account? <a href="login.php">Login now</a></div>
     </section>
   </div>
 

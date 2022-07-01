@@ -31,7 +31,7 @@
         }
         else
         {
-            echo "$email - This email not Exist!";
+            echo "$email - This email does not Exist!";
         }
     }
     else

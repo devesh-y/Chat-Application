@@ -10,9 +10,12 @@ form.onsubmit = (e)=>{
 
 inputField.focus();
 inputField.onkeyup = ()=>{
-    if(inputField.value != ""){
+    if(inputField.value != "")
+    {
         sendBtn.classList.add("active");
-    }else{
+    }
+    else
+    {
         sendBtn.classList.remove("active");
     }
 }
